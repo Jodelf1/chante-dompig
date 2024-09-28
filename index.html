@@ -24,7 +24,7 @@
     </head>
     <body>
         <!-- Header -->
-        <header class="flex a-center j-between normal-font small-sz">
+        <header class="flex a-center j-between normal-font small-sz" id="menu">
             <section class="logo">
                 <h1 class="text-logo">CHANTÉ DOMPIG</h1>
             </section>
@@ -49,8 +49,9 @@
             <section class="mobile-menu hide-desktop"></section>
         </header>
         <!-- Main Content -->
-        <main class="main-container">
-            <section class="hero-section">
+        <section class="main-container" id="main">
+            <main>
+            <section class="hero-section" id="hero">
                 <section class="hero-content flex row j-between">
                     <section class="info-content flex col">
                         <section class="mood">
@@ -194,6 +195,11 @@
                             <section class="seccao flex col j-between" id="more">
                                 <h1 class="section-title">MORE</h1>
                                 <section class="video-section ">
+                                    <section class="video-card">
+                                        <video width="100%" onclick="togglePlayPause(this)" controls>
+                                            <source src="/content/video/AC MILAN/WhatsApp Video 2024-07-14 at 02.23.47.mp4" type="video/mp4">
+                                        </video>
+                                    </section>
                                     <section class="video-card">
                                         <video width="100%" onclick="togglePlayPause(this)" controls>
                                             <source src="/content/video/AC MILAN/WhatsApp Video 2024-07-14 at 02.23.47.mp4" type="video/mp4">
